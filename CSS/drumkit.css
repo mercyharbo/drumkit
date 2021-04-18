@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #dbedf3;
+  font-family: 'Arvo', cursive;
+  text-shadow: 3px 0 #da0463;
+}
+
+footer {
+  font-family: 'Orelega One', cursive;
+  font-size: 18px;
+  color: #dbedf3;
+  font-family: sans-serif;
+}
+
+a {
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: red;
+}
+
+.w {
+  background: url(../images/tom1.png);
+}
+
+.a {
+  background: url(../images/tom2.png);
+}
+
+.s {
+  background: url(../images/tom3.png);
+}
+
+.d {
+  background: url(../images/tom4.png);
+}
+
+.j {
+  background: url(../images/snare.png);
+}
+
+.k {
+  background: url(../images/crash.png);
+}
+
+.l {
+  background: url(../images/kick.png);
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    width: 100%;
+    padding: 5%;
+    margin: 0;
+    overflow: scroll;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .set {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 5% 0;
+  }
+
+  footer {
+    padding-top: 10%;
+  }
+}
